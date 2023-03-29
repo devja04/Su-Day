@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Delicious+Handrawn&family=Montserrat&family=Sono:wght@200;400&display=swap');
+
+body {
+    box-sizing: border-box;
+    background-color: #F0E5CF;
+    color: #4B6587;
+}
+
+.titulo {
+    text-align: center;
+    display: flex;
+    gap: 50px;
+    justify-content:space-around;
+    align-content: center;
+    color: #4B6587;
+    font-family: 'Delicious Handrawn', cursive;
+    
+}
+
+
+.nena-galeria {
+    display: flex;
+    height: 50rem;
+    gap: 50px
+}
+
+.nena-galeria > div {
+    flex: 1;
+    border-radius: 1rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+    transition: all .8s cubic-bezier(.25, .4, .45, 1.4);
+}
+
+.nena-galeria > div:hover {
+    flex: 5;
+}
+
+.paragrafo {
+    display: flex;
+    text-align: left;
+    font-family: 'Delicious Handrawn', cursive;
+    font-size: 24px;
+}
